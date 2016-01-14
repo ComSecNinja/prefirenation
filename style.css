@@ -35,9 +35,9 @@ body {
     display: inline-flex;
     background-color: #ec6b2d;
     font-size: 5.75vw;
-    padding: 3vw;
+    padding: 2vw 2.5vw 2vw 2.5vw;
     height: 24vw;
-    width: 24vw;
+    width: 25vw;
 }
 
 .caption {

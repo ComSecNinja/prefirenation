@@ -44,20 +44,29 @@ body {
     0% {
         content: "A decade ago this would've been in MySpace.";
     }
-    20% {
-        content: "He clicks heads in videogames.";
+    12.5% {
+        content: "He clicks heads in video games.";
     }
-    40% {
-        content: "Will he ace tonight?";
+    25% {
+        content: "Will he ace for me tonight?";
     }
-    60% {
-        content: "Still not subscribed, though...";
+    37.5% {
+        content: "But he smells funny.";
     }
-    80% {
-        content: "Not fishy. At all.";
+    50% {
+        content: "Global Elite is in another castle.";
+    }
+    62.5% {
+        content: "$14.99 for a knife ace. Go.";
+    }
+    75% {
+        content: "Such a clutchfest.";
+    }
+    87.5% {
+        content: "I don't know what else to say!";
     }
     100% {
-        content: "I don't know what else to say!";
+        content: "A decade ago this would've been in MySpace.";
     }
 }
 .caption {
@@ -78,7 +87,7 @@ body {
     animation-name: captions;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-duration: 20s;
+    animation-duration: 30s;
 }
 
 

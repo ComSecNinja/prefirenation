@@ -40,6 +40,26 @@ body {
     width: 25vw;
 }
 
+@keyframes captions {
+    0% {
+        content: "A decade ago this would've been in MySpace.";
+    }
+    20% {
+        content: "He clicks heads in videogames.";
+    }
+    40% {
+        content: "Will he ace tonight?";
+    }
+    60% {
+        content: "Still not subscribed, though...";
+    }
+    80% {
+        content: "Not fishy. At all.";
+    }
+    100% {
+        content: "I don't know what else to say!";
+    }
+}
 .caption {
     background-color: #333333;
     word-wrap: break-word;
@@ -50,9 +70,17 @@ body {
     align-items: center;
 
 }
-.caption p {
+.caption-text {
     margin: auto;
 }
+.caption-text::after {
+    content: "";
+    animation-name: captions;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
 
 .container {
     margin: auto;

@@ -34,7 +34,7 @@ body {
 .hero {
     display: inline-flex;
     background-color: #ec6b2d;
-    font-size: 5.75vw;
+    font-size: 6vw;
     padding: 2vw 2.5vw 2vw 2.5vw;
     height: 24vw;
     width: 25vw;
@@ -42,13 +42,16 @@ body {
 
 .caption {
     background-color: #333333;
-    text-align: center;
     word-wrap: break-word;
-    padding: 0.1vw 0vw 0.1vw 0vw;
-    font-style: oblique;
-    font-size: 1vw;
+    font-size: 1.2vw;
     width: 100%;
-    height: 3.8vw;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+
+}
+.caption p {
+    margin: auto;
 }
 
 .container {

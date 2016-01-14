@@ -74,7 +74,7 @@ body {
     margin: auto;
 }
 .caption-text::after {
-    content: "";
+    content: "A decade ago this would've been in MySpace.";
     animation-name: captions;
     animation-timing-function: linear;
     animation-iteration-count: infinite;

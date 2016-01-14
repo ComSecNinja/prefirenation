@@ -59,3 +59,15 @@ body {
     width: 30vw;
     height: 34vw;
 }
+
+.bottom-bar {
+    position: absolute;
+    bottom: 0vw;
+    left: 0px;
+    background-color: #0d0f05;
+    width: 100%;
+    text-align: center;
+}
+.bottom-bar a {
+    color: white;
+}

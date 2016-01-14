@@ -62,9 +62,8 @@ body {
 
 .bottom-bar {
     position: absolute;
-    bottom: 0vw;
-    left: 0px;
-    background-color: #0d0f05;
+    bottom: 0;
+    left: 0;
     width: 100%;
     text-align: center;
 }

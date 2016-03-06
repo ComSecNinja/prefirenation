@@ -34,10 +34,61 @@ body {
 .hero {
     display: inline-flex;
     background-color: #ec6b2d;
-    font-size: 6vw;
-    padding: 2vw 2.5vw 2vw 2.5vw;
-    height: 24vw;
-    width: 25vw;
+    font-size: 17ex;
+    padding: 6.6% 8.3% 6.6% 8.3%;
+    height: calc(88% - 13.2%);
+    width: 83.4%;
+}
+
+.caption {
+    background-color: #333333;
+    word-wrap: break-word;
+    font-size: 2.5vw;
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+}
+.caption-text {
+    margin: auto;
+}
+.caption-text::after {
+    content: "A decade ago this would've been in MySpace.";
+    animation-name: captions;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+}
+
+.container {
+    margin: auto;
+    width: 66vw;
+    height: 68vw;
+}
+
+@media screen and (min-device-width: 768px) {
+    .container {
+        width: 30vw;
+        height: 32vw;
+    }
+    .hero {
+        font-size: 16ex;
+    }
+    .caption {
+        font-size: 1.2vw;
+    }
+}
+
+.bottom-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.bottom-bar a {
+    color: white;
 }
 
 @keyframes captions {
@@ -63,47 +114,9 @@ body {
         content: "Such a clutchfest.";
     }
     87.5% {
-        content: "I don't know what else to say!";
+        content: "There's no B in \"Mirage\".";
     }
     100% {
         content: "A decade ago this would've been in MySpace.";
     }
-}
-.caption {
-    background-color: #333333;
-    word-wrap: break-word;
-    font-size: 1.2vw;
-    width: 100%;
-    height: 4vw;
-    display: flex;
-    align-items: center;
-
-}
-.caption-text {
-    margin: auto;
-}
-.caption-text::after {
-    content: "A decade ago this would've been in MySpace.";
-    animation-name: captions;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-duration: 30s;
-}
-
-
-.container {
-    margin: auto;
-    width: 30vw;
-    height: 34vw;
-}
-
-.bottom-bar {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-}
-.bottom-bar a {
-    color: white;
 }
